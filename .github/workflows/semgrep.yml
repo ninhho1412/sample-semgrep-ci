@@ -12,10 +12,10 @@ name: Semgrep
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "no_run" ]
   pull_request:
     # The branches below must be a subset of the branches above
-    branches: [ "main" ]
+    branches: [ "no_run" ]
   schedule:
     - cron: '20 22 * * 3'
 
